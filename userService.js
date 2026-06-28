@@ -1,8 +1,8 @@
 const users = [];
 
 async function getUserById(id) {
-    const user = users.find(u => u.id === id);
-    return user || null;
+    const user1 = users.find(u => u.id === id);
+    return user1 || null;
 }
 
 async function createUser(name, email) {
